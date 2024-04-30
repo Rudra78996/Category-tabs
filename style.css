@@ -16,11 +16,6 @@
   margin-bottom: 20px;
   font-weight: 600;
 }
-.category div{
-  color: white;
-  padding: 10px;
-  border: 2px solid black;
-}
 
 input[type="radio"] {
   display: none;
@@ -38,10 +33,22 @@ input[type="radio"]:checked + label {
   background: black;
   color: white;
   border-radius: 4px;
+  transform: translateY(1px);
 }
 input[type="radio"]:checked + .icon-label span {
   color: white;
 }
+
+input[type="radio"]:hover:checked + label {
+  background-color: #333;
+  color: white; 
+}
+input[type="radio"]:hover + label {
+  background-color: #d6d6d6;
+  color: black;
+  border-radius: 5px; 
+}
+
 
 
 .product{
@@ -77,10 +84,17 @@ input[type="radio"]:checked + .icon-label span {
   font-size: 16px;
   cursor: pointer;
   width: 100%;
+  transition: background-color 0.3s ease; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.card button:active {
+  background-color: #1a1a1a; 
+  box-shadow: none; 
+  transform: translateY(1px); 
 }
 
 .card button:hover {
-  background-color: rgb(39, 39, 39);
+  background-color: #333;
   color: white;
 }
 
@@ -151,6 +165,7 @@ input[type="radio"]:checked + .icon-label span {
   display: flex;
   align-items: center; 
   justify-content: center;
+  cursor: pointer;
 }
 .material-symbols-outlined {
   margin-left: 5px;
