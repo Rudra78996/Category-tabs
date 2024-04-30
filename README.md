@@ -12,3 +12,5 @@ To clone this project, follow these steps:
 
 ```bash
 git clone https://github.com/rudra78996/Category-tabs.git
+```
+You can view the hosted version of this project at <a href="https://rudra78996.github.io/Category-tabs/">Category Tabs/<a>
