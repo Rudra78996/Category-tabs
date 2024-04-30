@@ -39,6 +39,10 @@ input[type="radio"]:checked + label {
   color: white;
   border-radius: 4px;
 }
+input[type="radio"]:checked + .icon-label span {
+  color: white;
+}
+
 
 .product{
   display: flex;
@@ -141,4 +145,16 @@ input[type="radio"]:checked + label {
   padding: 5px 10px;
   border-radius: 5px;
   font-size: 14px;
+}
+
+.icon-label {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+.material-symbols-outlined {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 24px; 
+  color: transparent;
 }
