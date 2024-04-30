@@ -1,4 +1,4 @@
-# Category Tabs Project README
+# Category Tabs Project
 
 This project is a simple implementation of category tabs using HTML, CSS, and JavaScript.
 
