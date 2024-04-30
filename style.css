@@ -60,6 +60,7 @@ input[type="radio"]:hover + label {
 
 .card {
   width: 275px;
+  height: 500px;
   position: relative;
   border-radius: 8px;
   overflow: hidden;
