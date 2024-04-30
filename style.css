@@ -1,0 +1,144 @@
+*{
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+.container{
+    height:100vh
+}
+.container h1{
+  text-align: center;
+  text-shadow: 4px 4px 8px rgb(126, 126, 126);
+}
+.category{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.category div{
+  color: white;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label{
+  width: 9rem;
+  text-align: center;
+  padding: 8px;
+  cursor: pointer;
+  background-color: #f2f2f2;
+}
+
+input[type="radio"]:checked + label {
+  background: black;
+  color: white;
+  border-radius: 4px;
+}
+
+.product{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.card {
+  width: 275px;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.card img {
+  width: 100%;
+  height: 60%;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  z-index: -1;
+}
+
+
+.card button {
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.card button:hover {
+  background-color: rgb(39, 39, 39);
+  color: white;
+}
+
+.card-content{
+  width: 100%;
+}
+
+.upperDiv{
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  margin-bottom: 8px;
+}
+
+.lowerDiv {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+}
+
+.originalPrice{
+  font-weight: 400;
+  color: gray;
+  margin: 0px 8px 0px 22px;
+  text-decoration: line-through;
+}
+
+.discount{
+  color: red;
+}
+
+.title{
+  width: 50%;
+  font-weight: 700;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  margin-right: 8px;
+}
+
+.vendor{
+  font-weight: 400;
+  color: rgb(96, 96, 96);
+  font-size: 14px;
+}
+
+.vender .title{
+  width: 50%;
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
+}
+
+.badge{
+  position: absolute;
+  top: 9px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
