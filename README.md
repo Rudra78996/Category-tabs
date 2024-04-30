@@ -2,9 +2,9 @@
 
 This project is a simple implementation of category tabs using HTML, CSS, and JavaScript.
 
-## How to Clone
+## How to Use:
 
-To clone this project, follow these steps:
+A) clone this project, follow these steps:
 
 1. Open your terminal or command prompt.
 2. Navigate to the directory where you want to clone the project.
@@ -13,4 +13,4 @@ To clone this project, follow these steps:
 ```bash
 git clone https://github.com/rudra78996/Category-tabs.git
 ```
-You can view the hosted version of this project at <a href="https://rudra78996.github.io/Category-tabs/">Category Tabs/<a>
+B) You can view the hosted version of this project at <a href="https://rudra78996.github.io/Category-tabs/">Category Tabs/<a>
